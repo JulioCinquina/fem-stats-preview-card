@@ -88,6 +88,11 @@ main {
   color: var(--color-neutral-100-alpha-75);
 }
 
+.card__stats {
+  list-style-type: none;
+  padding: 0;
+}
+
 .card__stat-number {
   color: var(--color-neutral-100);
 }
