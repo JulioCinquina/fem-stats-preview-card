@@ -84,8 +84,19 @@ main {
   visibility: hidden;
 }
 
+.card__content {
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
 .card__title {
   color: var(--color-neutral-100);
+  line-height: 1.2;
 }
 
 .card__body {
@@ -95,6 +106,7 @@ main {
 .card__stats {
   list-style-type: none;
   padding: 0;
+  margin-block-start: 1rem;
 }
 
 .card__stat-number {
