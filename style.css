@@ -22,12 +22,21 @@ body {
   line-height: 1.5;
 
   font-family: "Inter", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 img,
 picture {
   max-width: 100%;
   display: block;
+}
+
+main {
+  flex: 1;
 }
 
 .card__stat-title {
