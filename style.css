@@ -37,6 +37,11 @@ picture {
 
 main {
   flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .card__stat-title {
