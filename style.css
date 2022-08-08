@@ -48,8 +48,13 @@ main {
 }
 
 .card {
+  max-width: min(20rem, 90%);
+
   background-color: var(--card-bg-color);
   color: var(--color-neutral-100);
+
+  border-radius: 0.5rem;
+  overflow: hidden;
 }
 
 .card__title {
