@@ -62,6 +62,22 @@ main {
   overflow: hidden;
 }
 
+.card__image-container {
+  /* To use "background-blend-mode", a background image is required */
+  background-color: var(--color-accent);
+  background-image: url(./images/image-header-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-blend-mode: multiply;
+}
+
+.card__image-element {
+  /* This lets the container have the size of the image without showing it. 
+  
+  The image is placed by the "background-image" property in the container because "background-blend-mode" is required. */
+  visibility: hidden;
+}
+
 .card__title {
   color: var(--color-neutral-100);
 }
