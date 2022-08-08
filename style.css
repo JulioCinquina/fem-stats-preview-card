@@ -111,16 +111,17 @@ main {
   list-style-type: none;
   padding: 0;
   margin-block-start: 1.25rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
 }
 
 .card__stat {
   display: flex;
   flex-direction: column;
-}
-
-.card__stat:not(:last-of-type) {
-  /* Select all stats except last one */
-  margin-block-end: 1.5rem;
 }
 
 .card__stat-number {
