@@ -73,7 +73,7 @@ main {
   background-color: var(--color-accent);
   background-image: url(./images/image-header-mobile.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-blend-mode: multiply;
 }
 
