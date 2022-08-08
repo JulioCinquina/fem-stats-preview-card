@@ -64,6 +64,10 @@ main {
   overflow: hidden;
 }
 
+.card * {
+  margin: 0;
+}
+
 .card__image-container {
   /* To use "background-blend-mode", a background image is required */
   background-color: var(--color-accent);
