@@ -96,13 +96,14 @@ main {
 
 .card__title {
   color: var(--color-neutral-100);
-  font-size: 1.625rem;
+  font-size: 1.75rem;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.1;
 }
 
 .card__body {
   color: var(--color-neutral-100-alpha-75);
+  line-height: 1.7;
 }
 
 .card__stats {
