@@ -54,13 +54,13 @@ main {
 }
 
 .card {
-  max-width: min(20rem, 90%);
+  max-width: min(20.5rem, 90%);
 
   background-color: var(--card-bg-color);
   color: var(--color-neutral-100);
   text-align: center;
 
-  border-radius: 0.5rem;
+  border-radius: 0.625rem;
   overflow: hidden;
 }
 
@@ -85,7 +85,8 @@ main {
 }
 
 .card__content {
-  padding: 2rem;
+  padding-block: 2.5rem;
+  padding-inline: 1.875rem;
 
   display: flex;
   flex-direction: column;
