@@ -22,6 +22,9 @@ body {
   line-height: 1.5;
 
   font-family: "Inter", sans-serif;
+  color: var(--color-neutral-100);
+
+  background-color: var(--body-bg-color);
 
   display: flex;
   flex-direction: column;
@@ -44,8 +47,26 @@ main {
   align-items: center;
 }
 
+.card {
+  background-color: var(--card-bg-color);
+  color: var(--color-neutral-100);
+}
+
+.card__title {
+  color: var(--color-neutral-100);
+}
+
+.card__body {
+  color: var(--color-neutral-100-alpha-75);
+}
+
+.card__stat-number {
+  color: var(--color-neutral-100);
+}
+
 .card__stat-title {
   font-family: "Lexend Deca", sans-serif;
+  color: var(--color-neutral-100-alpha-60);
 }
 
 .attribution {
