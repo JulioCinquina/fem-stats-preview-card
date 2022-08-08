@@ -16,6 +16,11 @@
   box-sizing: inherit;
 }
 
+/* Utility */
+.color-accent {
+  color: var(--color-accent);
+}
+
 body {
   min-height: 100vh;
   margin: 0;
