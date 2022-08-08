@@ -111,13 +111,27 @@ main {
   margin-block-start: 1rem;
 }
 
+.card__stat {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__stat:not(:last-of-type) {
+  /* Select all stats except last one */
+  margin-block-end: 1.5rem;
+}
+
 .card__stat-number {
+  font-size: 1.5rem;
+  font-weight: 700;
   color: var(--color-neutral-100);
 }
 
 .card__stat-title {
   font-family: "Lexend Deca", sans-serif;
+  font-size: 0.8125rem;
   color: var(--color-neutral-100-alpha-60);
+  text-transform: uppercase;
 }
 
 .attribution {
