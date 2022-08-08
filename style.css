@@ -110,7 +110,7 @@ main {
 .card__stats {
   list-style-type: none;
   padding: 0;
-  margin-block-start: 1rem;
+  margin-block-start: 1.25rem;
 }
 
 .card__stat {
