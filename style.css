@@ -144,3 +144,47 @@ main {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media screen and (min-width: 45em) {
+  .card {
+    width: min(69.375rem, 90vw);
+
+    text-align: left;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card__image-container {
+    background-image: url(./images/image-header-desktop.jpg);
+    order: 2;
+  }
+
+  .card__content {
+    max-width: 41ch;
+
+    padding-block: unset;
+    padding-inline: unset;
+    margin: 2.5rem;
+
+    justify-self: center;
+    align-self: center;
+
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 1.66rem;
+  }
+
+  .card__title {
+    font-size: 2.25rem;
+    line-height: 1.2;
+  }
+
+  .card__stats {
+    margin-block-start: 2.5rem;
+    padding-inline-end: 2.25rem;
+
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
