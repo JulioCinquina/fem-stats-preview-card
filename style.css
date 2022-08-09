@@ -138,11 +138,13 @@ main {
 }
 
 .attribution {
-  font-size: 11px;
+  padding-block-start: 1rem;
+  padding-block-end: 0.25rem;
+  font-size: 0.6875rem;
   text-align: center;
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
+.attribution__link {
+  color: var(--color-neutral);
 }
 
 @media screen and (min-width: 45em) {
