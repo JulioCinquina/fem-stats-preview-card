@@ -14,8 +14,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution on Frontend Mentor]()
-- [Live Site on GitHub Pages]()
+- [Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-stats-preview-card-with-flexbox-grid-and-media-queries-gN_LazeM0Q)
+- [Live Site on GitHub Pages](https://juliocinquina.github.io/fem-stats-preview-card/)
 
 ### Screenshots
 
