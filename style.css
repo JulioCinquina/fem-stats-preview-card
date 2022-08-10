@@ -164,22 +164,19 @@ main {
     text-align: left;
 
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr auto;
   }
 
   .card__image-container {
-    background-image: url(./images/image-header-desktop.jpg);
     order: 2;
   }
 
   .card__content {
-    max-width: 41ch;
+    max-width: 56ch;
 
-    padding-block: unset;
-    padding-inline: unset;
-    margin: 2.5rem;
+    padding-inline: 4.375rem;
+    padding-block: 2rem;
 
-    justify-self: center;
     align-self: center;
 
     justify-content: flex-start;
