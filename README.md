@@ -51,3 +51,7 @@ In future projects, I want to continue learning **Grid**, as it can be a more co
 ## Author
 
 - Frontend Mentor - [@JulioCinquina](https://www.frontendmentor.io/profile/JulioCinquina)
+
+## Acknowledgments
+
+A big thank you to [@correlucas](https://github.com/correlucas) for helping me get the image's purple color effect right!
