@@ -71,19 +71,27 @@ main {
 }
 
 .card__image-container {
-  /* To use "background-blend-mode", a background image is required */
   background-color: var(--color-accent);
-  background-image: url(./images/image-header-mobile.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-blend-mode: multiply;
+}
+
+.card__image-element,
+.card__image-element > * {
+  /* Overrides the reset and makes the image fill the container */
+  max-width: unset;
+  width: 100%;
+  height: 100%;
+}
+
+.card__image-element > * {
+  /* Makes the image keep its aspect ratio if resized */
+  object-fit: cover;
+  /* Makes the image appear from the left if clipped */
+  object-position: left;
 }
 
 .card__image-element {
-  /* This lets the container have the size of the image without showing it. 
-  
-  The image is placed by the "background-image" property in the container because "background-blend-mode" is required. */
-  visibility: hidden;
+  mix-blend-mode: multiply;
+  opacity: 0.75;
 }
 
 .card__content {
